@@ -115,6 +115,21 @@ python manage.py runserver
 http://localhost:8000/admin
 mostrar
 
+customizar el admin.py:
+
+class AdminNoticia(admin.ModelAdmin):
+    list_display = ('id', 'titulo', 'fecha',)
+    list_filter = ('archivada', 'fecha')
+    search_fields = ('texto', )
+    date_hierarchy = 'fecha'
+
+admin.site.register(Noticia, AdminNoticia)
+
+python manage.py runserver
+http://localhost:8000/admin
+mostrar
+
+
 
 
 PARTE 4: error
