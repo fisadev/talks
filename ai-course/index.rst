@@ -16,8 +16,9 @@ Día 1
 4. (T+P) Formulación de problemas de búsqueda (elementos que debemos entender y definir de nuestro problema).
    1. Representación del estado.
    2. Definición de las acciones posibles desde cada estado.
-   3. Función de comprobación de meta o función de valoración.
-   4. Función heurística.
+   3. Función de costo.
+   4. Función de comprobación de meta o función de valoración.
+   5. Función heurística.
 5. (T) Algoritmos para resolver problemas de búsqueda. Idea general y diferentes tipos.
 6. (T) Presentación de la biblioteca a usar en la práctica: SimpleAI. Ventajas de usar python para este tipo de programación.
 7. (P) Instalación de las herramientas necesarias en las pcs de los asistentes.
