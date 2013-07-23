@@ -20,8 +20,8 @@ will become (in lists):
 
 '''
 
-from simpleai.search import *
-from simpleai.search.viewers import *
+from simpleai.search import SearchProblem, astar, breadth_first, depth_first
+from simpleai.search.viewers import WebViewer
 
 
 INITIAL = '''4-5-1
