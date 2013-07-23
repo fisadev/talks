@@ -64,15 +64,19 @@ class EigthPuzzleProblem(SearchProblem):
         rows = string_to_list(state)
         row_e, col_e = find_location(rows, 'e')
 
+        deltas = (
+            (1, 0),
+            (-1, 0),
+            (0, 1),
+            (0, -1),
+        )
+
         actions = []
-        if row_e > 0:
-            actions.append(rows[row_e - 1][col_e])
-        if row_e < 2:
-            actions.append(rows[row_e + 1][col_e])
-        if col_e > 0:
-            actions.append(rows[row_e][col_e - 1])
-        if col_e < 2:
-            actions.append(rows[row_e][col_e + 1])
+        for delta_row, delta_col in deltas:
+            new_row = row_e + delta_row
+            new_col = col_e + delta_col
+            if 0 <= new_row < 3 and 0 <= new_col < 3:
+                actions.append(rows[new_row][new_col])
 
         return actions
 
