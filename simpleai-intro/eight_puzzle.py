@@ -72,9 +72,9 @@ class EigthPuzzleProblem(SearchProblem):
         )
 
         actions = []
-        for delta_row, delta_col in deltas:
-            new_row = row_e + delta_row
-            new_col = col_e + delta_col
+        for d_row, d_col in deltas:
+            new_row = row_e + d_row
+            new_col = col_e + d_col
             if 0 <= new_row < 3 and 0 <= new_col < 3:
                 actions.append(rows[new_row][new_col])
 
