@@ -8,9 +8,9 @@ valen la pena aprovechar.
 
 1. Uso del ORM:
    * filtros con objetos Q
+   * manejo de transacciones
    * optimización de consultas
    * consultas raw
-   * manejo de transacciones
 2. Uso del sistema de templates:
    * herencia y composicón de templates
    * filtros
