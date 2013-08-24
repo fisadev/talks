@@ -8,7 +8,9 @@ from sitio.forms import ContactoForm, ComentarioForm
 
 
 def inicio(request):
-    lista_noticias = Noticia.objects.select_related('categoria')
+    lista_noticias = Noticia.objects.exclude(archivada=True)\
+                                    .select_related('categoria')\
+                                    .order_by('-fecha')
 
     return render_to_response('inicio.html',
                               {'lista_noticias': lista_noticias},
