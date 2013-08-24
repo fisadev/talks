@@ -1,0 +1,27 @@
+server {
+    listen   80;
+    server_name noticias.com;
+    client_max_body_size 50M;
+    
+    root /home/fisa/devel/talks/django-nivel-medio/ejemplo/noticias/;
+
+    access_log /home/fisa/devel/talks/django-nivel-medio/ejemplo/noticias/nginx_access.log;
+    error_log /home/fisa/devel/talks/django-nivel-medio/ejemplo/noticias/nginx_error.log;
+    
+    location /media/ {
+    }
+    location /static/ {
+    }
+
+    location / {
+        proxy_pass_header Server;
+        proxy_set_header Host $http_host;
+        proxy_redirect off;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Scheme $scheme;
+        proxy_connect_timeout 300;
+        proxy_send_timeout 300;
+        proxy_read_timeout 300;
+        proxy_pass http://localhost:8000/;
+    }
+}
