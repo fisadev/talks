@@ -1,5 +1,10 @@
 # coding: utf-8
+from datetime import date
+
+from django.db import transaction
 from django.core.mail import send_mail
+from django.core.urlresolvers import reverse
+from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
@@ -44,8 +49,23 @@ def contacto(request):
                   'sitio@noticias.com',
                   ['community_manager@noticias.com'])
 
-        form = ContactoForm()
+        return HttpResponseRedirect(reverse('inicio'))
 
     return render_to_response('contacto.html',
                               {'form': form},
                               context_instance=RequestContext(request))
+
+
+@transaction.commit_on_success
+def archivar_viejas(request):
+    for noticia in Noticia.objects.filter(archivada=False, fecha__lt=date.today()):
+        noticia.archivada = True
+        noticia.save()
+
+    return render_to_response('ok.html')
+
+
+def mejor_archivar_viejas(request):
+    Noticia.objects.filter(archivada=False, fecha__lt=date.today()).update(archivada=True)
+
+    return render_to_response('ok.html')
