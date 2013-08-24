@@ -1,7 +1,6 @@
 # coding: utf-8
 from datetime import date
 
-from django.db import transaction
 from django.core.mail import send_mail
 from django.core.urlresolvers import reverse
 from django.http import HttpResponseRedirect
