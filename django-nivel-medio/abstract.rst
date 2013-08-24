@@ -19,9 +19,9 @@ valen la pena aprovechar.
    * forms normales
    * model forms
 4. Signals
-6. Deploy de aplicaciones django
-   * apache + mod_wsgi
-   * nginx + gunicorn/uwsgi
-7. Testing
+6. Testing
    * test client
    * fixtures vs factories
+7. Deploy de aplicaciones django
+   * apache + mod_wsgi
+   * nginx + gunicorn/uwsgi
