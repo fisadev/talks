@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block subtitulo %} {{ noticia.titulo }} {% endblock %}
+
+{% block contenido %}
+  <p>{{ noticia.fecha|date:"d, F" }}</p>
+  <p>{{ noticia.texto }}</p>
+
+  <h4>Comentarios:</h4>
+  {% for comentario in noticia.comentarios.all %}
+    <p>{{ comentario.fecha }}:</p>
+    <p>{{ comentario.texto }}</p>
+  {% endfor %}
+
+  <p>Comentar:</p>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" name="enviar" value="Enviar"/>
+  </form>
+{% endblock %}

@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="{{ STATIC_URL }}estilos.css" />
+  </head>
+  <body>
+
+    <div class="top-bar">
+      <div class="title-bar">
+        <h1><a href="{% url "inicio" %}">Noticias.com</a></h1>
+      </div>
+      <div class="nav-bar">
+        <h2>{% block subtitulo %}el sitio de noticias{% endblock %}</h2>
+      </div>
+    </div>
+  
+    <div class="content">
+      {% block contenido %}
+        <p>nada nada nada</p>
+      {% endblock %}
+    </div>
+
+    <div class="bottom-bar">
+      <p>Hecho en Junin! (en realidad parte hecho en el colectivo) - <a href="{% url "contacto" %}">Contacto</a></p>
+    </div>
+  </body>
+</html>

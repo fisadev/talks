@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+  {% for noticia in lista_noticias %}
+  <h3><a href="{% url "ver_noticia" noticia.id %}" >{{ noticia.fecha|date:"d, F" }}: {{ noticia.categoria.nombre }} | {{ noticia.titulo }}</a></h3>
+  {% endfor %}
+
+  {% include 'publicidad_junin.html' %}
+{% endblock %}
