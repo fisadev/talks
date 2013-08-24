@@ -19,7 +19,7 @@ valen la pena aprovechar.
 4. Signals
 6. Deploy de aplicaciones django
    * apache + mod_wsgi
-   * nginx + gunicorn
+   * nginx + gunicorn/uwsgi
 7. Testing
    * test client
    * fixtures vs factories
