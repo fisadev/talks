@@ -1,7 +1,7 @@
 # coding: utf-8
 from django.test import TestCase
 
-from sitio.models import Noticia
+from sitio.factories import NoticiaFactory
 
 
 class SimpleTest(TestCase):
@@ -16,6 +16,6 @@ class AlsoSimpleTest(TestCase):
 
         response = self.client.get('/')
 
-        self.assertEqual(response.code, 200)
+        self.assertEqual(response.status_code, 200)
         self.assertIn(n1.titulo, response.content)
         self.assertIn(n2.titulo, response.content)
