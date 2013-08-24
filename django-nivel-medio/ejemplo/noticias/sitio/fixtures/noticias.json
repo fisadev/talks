@@ -1,0 +1,29 @@
+[
+ {
+  "pk": 1,
+  "model": "sitio.categoria",
+  "fields": {
+   "nombre": "categoria 1"
+  }
+ },
+ {
+  "pk": 1,
+  "model": "sitio.noticia",
+  "fields": {
+   "titulo": "noticia 1",
+   "fecha": "2013-01-01",
+   "texto": "bla bla bla",
+   "archivada": false
+  }
+ },
+ {
+  "pk": 2,
+  "model": "sitio.noticia",
+  "fields": {
+   "titulo": "noticia 2",
+   "fecha": "2013-01-01",
+   "texto": "bla bla bla",
+   "archivada": false
+  }
+ }
+]
