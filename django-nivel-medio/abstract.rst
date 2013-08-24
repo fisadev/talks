@@ -16,6 +16,8 @@ valen la pena aprovechar.
    * filtros
    * tags y filtros personalizados
 3. Formularios
+   * forms normales
+   * model forms
 4. Signals
 6. Deploy de aplicaciones django
    * apache + mod_wsgi
