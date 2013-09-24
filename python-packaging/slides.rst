@@ -1,7 +1,9 @@
-1. Cómo estructuro mi repo
---------------------------
+Cómo estructuro mi repo
+=======================
 
 Ejemplo de estructura:
+
+.. class:: chiquito
 
 .. code-block:: none
 
@@ -22,8 +24,8 @@ Ejemplo de estructura:
 
     tests/test_foo.py
 
-1. Cómo estructuro mi repo
---------------------------
+Cómo estructuro mi repo
+=======================
 
 Sobre dónde poner las cosas:
 
@@ -32,16 +34,16 @@ Sobre dónde poner las cosas:
 * Tests y docs fuera del paquete.
 * Y por esto no es tan buena idea usar doctests, mejor unittests.
 
-1. Cómo estructuro mi repo
---------------------------
+Cómo estructuro mi repo
+=======================
 
 Sobre el versionado:
 
 * Separar branches de releases públicos y de desarrollo (buena idea usar algo como **git-flow**).
 * Usar **tags** para marcar los releases! Se encuentra fácil código de cada versión, y github las ofrece en la sección de descargas.
 
-2. Cómo armo el paquete
------------------------
+Cómo armo el paquete
+====================
 
 * Hay varias herramientas: setuptools, distutils, distutils2, packaging, distribute.
 * Packaging == distutils2 (fiu! una menos), 
@@ -50,13 +52,13 @@ Sobre el versionado:
 * Distutils viene por default en python 2.x.
 * Por ahora elegimos **distutils**. A futuro puede convenir **packaging**.
 
-2. Cómo armo el paquete
------------------------
+Cómo armo el paquete
+====================
 
 Peeeero, hay veces que distutils no se lleva bien con endpoints de paquetes hechos con setuptools, así que alguna vez puede que tengamos que pasar a setuptools (distutils no estará ya arreglado? habría que ver)
 
-2. Cómo armo el paquete
------------------------
+Cómo armo el paquete
+====================
  
 Creamos un ``setup.py`` en la raíz del repo, algo así:
 
@@ -85,8 +87,8 @@ Creamos un ``setup.py`` en la raíz del repo, algo así:
         ],
     )
 
-2. Cómo armo el paquete
------------------------
+Cómo armo el paquete
+====================
  
 * Distutils es bastante inteligente para darse cuenta de qué cosas incluir.
 * Pero a veces falla, o por ahí queremos incluir cosas extras. 
@@ -99,8 +101,8 @@ Creamos un ``setup.py`` en la raíz del repo, algo así:
     recursive-include simpleai *.py
     recursive-include simpleai/search/web_viewer_resources *.*
 
-3. Cómo distribuyo el paquete
------------------------------
+Cómo distribuyo el paquete
+==========================
 
 * La gente ya puede instalar con pip apuntando a la url del repo. 
 * Es mejor subir el paquete a **PyPI** y que la gente pueda instalar con ``pip install my_lib``.
@@ -116,8 +118,8 @@ Creamos un ``setup.py`` en la raíz del repo, algo así:
 
     python setup.py sdist upload
 
-4. Cómo armo la doc
--------------------
+Cómo armo la doc
+================
 
 * Lo más común es utilizar **sphinx** y escribir la doc en **ReST** dentro del repo.
 * Instalamos sphinx:
@@ -134,8 +136,8 @@ Creamos un ``setup.py`` en la raíz del repo, algo así:
 
 * Nos quedan un montón de archivos en el directorio ``docs``. Agregamos todo al repo, **menos** ``_build``. 
 
-4. Cómo armo la doc
--------------------
+Cómo armo la doc
+================
 
 * Completamos los archivos ``.rst`` con la doc en sí.
 * Hay herramientas para que parsee nuestra lib y genere doc automatizada de funciones, clases, etc.
@@ -146,16 +148,16 @@ Creamos un ``setup.py`` en la raíz del repo, algo así:
     make html
     google-chrome _build/html/index.html 
 
-5. Cómo publico la doc
-----------------------
+Cómo publico la doc
+===================
 
 * Creamos usuario en http://readthedocs.org
 * Registramos el proyecto.
 * Configuramos url del repo, e indicando que la doc está en el directorio ``docs``.
 * Si el repo está en **GitHub**, configuramos el service hook de readthedocs para que se actualice cada vez que pushemos versiones nuevas (si no se puede hacer a mano).
 
-6. Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
-----------------------------------------------------------------------------------------------------------
+Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
+=======================================================================================================
 
 Listo! Repasamos: 
 
@@ -163,15 +165,15 @@ Listo! Repasamos:
 * Paquete de python armado y publicado ✓ 
 * Doc escrita con rst y que se publica sola ✓
 
-6. Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
-----------------------------------------------------------------------------------------------------------
+Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
+=======================================================================================================
 
 Cómo trabajamos a diario?: 
 
 * codeamos y pusheamos sobre los branches de **desarrollo**.
 
-6. Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
-----------------------------------------------------------------------------------------------------------
+Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
+=======================================================================================================
 
 Cómo releaseamos versiones estables?:
 
@@ -181,8 +183,8 @@ Cómo releaseamos versiones estables?:
 * pusheamos
 * subimos release a pypi (``python setup.py sdist upload``)
 
-6. Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
-----------------------------------------------------------------------------------------------------------
+Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
+=======================================================================================================
 
 Y después una cerveza o una coca, dependiendo del sujeto.
 
