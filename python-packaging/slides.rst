@@ -1,5 +1,21 @@
+Empaquetado en Python
+=====================
+
+.. image:: package.png
+    :width: 30%
+    :align: center
+
+
 Cómo estructuro mi repo
 =======================
+
+.. image:: repo.png
+    :width: 30%
+    :align: center
+
+Cómo estructuro mi repo
+=======================
+
 
 Ejemplo de estructura:
 
@@ -41,6 +57,14 @@ Sobre el versionado:
 
 * Separar branches de releases públicos y de desarrollo (buena idea usar algo como **git-flow**).
 * Usar **tags** para marcar los releases! Se encuentra fácil código de cada versión, y github las ofrece en la sección de descargas.
+
+Cómo armo el paquete
+====================
+
+.. image:: package.png
+    :width: 30%
+    :align: center
+
 
 Cómo armo el paquete
 ====================
@@ -104,6 +128,13 @@ Cómo armo el paquete
 Cómo distribuyo el paquete
 ==========================
 
+.. image:: publish_package.png
+    :width: 30%
+    :align: center
+
+Cómo distribuyo el paquete
+==========================
+
 * La gente ya puede instalar con pip apuntando a la url del repo. 
 * Es mejor subir el paquete a **PyPI** y que la gente pueda instalar con ``pip install my_lib``.
 * Solo la primera vez, creamos un usuario en http://pypi.python.org y registramos el paquete:
@@ -117,6 +148,13 @@ Cómo distribuyo el paquete
 .. code-block:: bash
 
     python setup.py sdist upload
+
+Cómo armo la doc
+================
+
+.. image:: docs.png
+    :width: 30%
+    :align: center
 
 Cómo armo la doc
 ================
@@ -151,10 +189,24 @@ Cómo armo la doc
 Cómo publico la doc
 ===================
 
+.. image:: publish_docs.png
+    :width: 30%
+    :align: center
+
+Cómo publico la doc
+===================
+
 * Creamos usuario en http://readthedocs.org
 * Registramos el proyecto.
 * Configuramos url del repo, e indicando que la doc está en el directorio ``docs``.
 * Si el repo está en **GitHub**, configuramos el service hook de readthedocs para que se actualice cada vez que pushemos versiones nuevas (si no se puede hacer a mano).
+
+Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
+=======================================================================================================
+
+.. image:: happiness.png
+    :width: 30%
+    :align: center
 
 Cómo ser feliz y tener una vida llena de sentido después de haber publicado un paquete como corresponde
 =======================================================================================================
