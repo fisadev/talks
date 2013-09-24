@@ -1,3 +1,9 @@
+styles:
+    heading:
+        textColor: #ED133B
+    code:
+        fontSize: 7
+
 pageSetup:
     width: 16cm
     height: 9cm
