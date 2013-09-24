@@ -15,7 +15,7 @@
         ],
         "showHeader": false,
         "showFooter": false,
-        "background" : "background.png"
+        "background": "background.png"
     }
   }
 }
