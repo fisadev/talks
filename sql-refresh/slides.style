@@ -1,20 +1,14 @@
-{"pageSetup": {
-    "width": "20cm",
-    "height": "11cm",
-    "margin-top": "2mm",
-    "margin-bottom": "0mm",
-    "margin-left": ".5cm",
-    "margin-right": "1cm",
-    "margin-gutter": "0cm",
-    "firstTemplate": "cutePage"
-  },
-  "pageTemplates" : {
-    "cutePage": {
-        "frames": [
-            ["0", "0", "100%", "100%"]
-        ],
-        "showHeader": false,
-        "showFooter": false
-    }
-  }
-}
+pageSetup: 
+    width: 20cm
+    height: 11cm
+    margin-top: 2mm
+    margin-bottom: 0mm
+    margin-left: .5cm
+    margin-right: 1cm
+    margin-gutter: 0cm
+    firstTemplate: cutePage
+pageTemplates: 
+    cutePage: 
+        frames: [ [0, 0, 100%, 100%] ]
+        showHeader: false
+        showFooter: false
