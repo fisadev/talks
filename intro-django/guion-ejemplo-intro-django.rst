@@ -39,6 +39,8 @@ def inicio(request):
 * levantar servidor y probar:
 
 python manage.py runserver
+
+**web**
 http://localhost:8000/inicio
 
 Parte 2: Modelos
@@ -61,8 +63,7 @@ python manage.py syncdb
 
 * levantar sitio y probar muchas veces:
 
-python manage.py runserver
-http://localhost:8000/inicio
+**web**
 
 * modificar template inicio:
 
@@ -79,8 +80,7 @@ http://localhost:8000/inicio
 
 * levantar servidor y probar:
 
-python manage.py runserver
-http://localhost:8000/inicio
+**web**
 
 Parte 3: Admin
 ==============
@@ -103,8 +103,7 @@ python manage.py syncdb
 
 * levantar sitio y probar:
 
-python manage.py runserver
-http://localhost:8000/admin
+**web**
 
 * mostrar
 
@@ -118,8 +117,7 @@ class AdminNoticia(admin.ModelAdmin):
 
 admin.site.register(Noticia, AdminNoticia)
 
-python manage.py runserver
-http://localhost:8000/admin
+**web**
 
 * mostrar
 
