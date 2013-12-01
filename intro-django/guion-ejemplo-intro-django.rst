@@ -3,44 +3,60 @@ Parte 1: vista básica
 
 * crear proyecto y aplicacion:
 
-django-admin.py startproject noticias
-python manage.py startapp sitio
+.. code-block::
 
-* editar settings:
+    django-admin.py startproject noticias
+    python manage.py startapp sitio
 
-path base de datos y cliente
-agregar aplicacion
+* editar settings: path base de datos y cliente
+
+* agregar aplicacion a INSTALLED_APPS:
+
+.. code-block::
+
+    'sitio',
 
 * editar models:
 
-class Noticia(models.Model):
-    titulo = models.CharField(max_length=50)
-    texto = models.CharField(max_length=200)
-    fecha = models.DateTimeField()
-    archivada = models.BooleanField()
+.. code-block:: python
+
+    class Noticia(models.Model):
+        titulo = models.CharField(max_length=50)
+        texto = models.CharField(max_length=200)
+        fecha = models.DateTimeField()
+        archivada = models.BooleanField()
 
 * crear directorio de templates
 * crear template /noticias/sitio/templates/inicio.html:
 
-<h1>Noticias.com</h1>
-<p>bienvenido!</p>
+.. code-block:: html
+
+    <h1>Noticias.com</h1>
+    <p>bienvenido!</p>
 
 * editar views:
 
-from django.shortcuts import render_to_response
+.. code-block:: python
 
-def inicio(request):
-    return render_to_response('inicio.html', {})
+    from django.shortcuts import render_to_response
+    
+    def inicio(request):
+        return render_to_response('inicio.html', {})
 
 * editar urls:
+
+.. code-block:: python
 
     (r'^inicio/$', 'sitio.views.inicio'),
 
 * levantar servidor y probar:
 
-python manage.py runserver
+.. code-block::
+
+    python manage.py runserver
 
 **web**
+
 http://localhost:8000/inicio
 
 Parte 2: Modelos
@@ -48,8 +64,12 @@ Parte 2: Modelos
 
 * editar views:
 
-from sitio.models import Noticia
-from datetime import datetime
+.. code-block:: python
+
+    from sitio.models import Noticia
+    from datetime import datetime
+
+.. code-block:: python
 
     nueva = Noticia()
     nueva.titulo = 'entro alguien!'
@@ -59,67 +79,70 @@ from datetime import datetime
 
 * sincronizar base de datos:
 
-python manage.py syncdb
+.. code-block::
 
-* levantar sitio y probar muchas veces:
+    python manage.py syncdb
 
 **web**
 
 * modificar template inicio:
 
-{% for noticia in lista_noticias %}
-    <h3>{{ noticia.fecha }} {{ noticia.titulo }}</h3>
-    <p>{{ noticia.texto }}</p>
-{% endfor %}
+.. code-block:: html
+
+    {% for noticia in lista_noticias %}
+        <h3>{{ noticia.fecha }} {{ noticia.titulo }}</h3>
+        <p>{{ noticia.texto }}</p>
+    {% endfor %}
 
 * modificar views:
 
-    noticias = Noticia.objects.all()
-   
-    return render_to_response('inicio.html', {'lista_noticias': noticias})
+.. code-block:: python
 
-* levantar servidor y probar:
+    noticias = Noticia.objects.all()
+
+.. code-block:: python
+
+    return render_to_response('inicio.html', {'lista_noticias': noticias})
 
 **web**
 
 Parte 3: Admin
 ==============
 
-* modificar settings:
-
-    'django.contrib.admin',
-
+* modificar settings (descomentar las lineas del admin)
 * modificar urls (descomentar las lineas del admin)
 * crear admin.py:
 
-from sitio.models import Noticia
-from django.contrib import admin
+.. code-block:: python
 
-admin.site.register(Noticia)
+    from sitio.models import Noticia
+    from django.contrib import admin
+    
+    admin.site.register(Noticia)
 
 * sincronizar la base de datos:
 
-python manage.py syncdb
+.. code-block::
 
-* levantar sitio y probar:
+    python manage.py syncdb
 
 **web**
-
-* mostrar
 
 * customizar el admin.py:
 
-class AdminNoticia(admin.ModelAdmin):
-    list_display = ('id', 'titulo', 'fecha',)
-    list_filter = ('archivada', 'fecha')
-    search_fields = ('texto', )
-    date_hierarchy = 'fecha'
+.. code-block:: python
 
-admin.site.register(Noticia, AdminNoticia)
+    class AdminNoticia(admin.ModelAdmin):
+        list_display = ('id', 'titulo', 'fecha',)
+        list_filter = ('archivada', 'fecha')
+        search_fields = ('texto', )
+        date_hierarchy = 'fecha'
+
+.. code-block:: python
+
+    admin.site.register(Noticia, AdminNoticia)
 
 **web**
-
-* mostrar
 
 Parte 4: Error
 ==============
