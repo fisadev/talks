@@ -17,8 +17,9 @@ div.output_prompt {
 /* For reveal */
 
 body {
-  background: #eeeeee;
-  background-color: #eeeeee;
+  background: url("background.png");
+  background-position: center;
+  background-size: 100%;
 }
 
 .reveal {
