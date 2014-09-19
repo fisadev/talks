@@ -6,7 +6,7 @@ Parte 1: vista básica
 .. code-block::
 
     django-admin.py startproject noticias
-    python manage.py startapp sitio
+    ./manage.py startapp sitio
 
 * editar settings: path base de datos y cliente
 
@@ -24,7 +24,7 @@ Parte 1: vista básica
         titulo = models.CharField(max_length=50)
         texto = models.CharField(max_length=200)
         fecha = models.DateTimeField()
-        archivada = models.BooleanField()
+        archivada = models.BooleanField(default=False)
 
 * crear directorio de templates
 * crear template /noticias/sitio/templates/inicio.html:
@@ -38,22 +38,20 @@ Parte 1: vista básica
 
 .. code-block:: python
 
-    from django.shortcuts import render_to_response
-    
     def inicio(request):
-        return render_to_response('inicio.html', {})
+        return render(request, 'inicio.html', {})
 
 * editar urls:
 
 .. code-block:: python
 
-    (r'^inicio/$', 'sitio.views.inicio'),
+    url(r'^inicio/$', 'sitio.views.inicio'),
 
 * levantar servidor y probar:
 
 .. code-block::
 
-    python manage.py runserver
+    ./manage.py runserver
 
 **web**
 
@@ -81,7 +79,8 @@ Parte 2: Modelos
 
 .. code-block::
 
-    python manage.py syncdb
+    ./manage.py makemigrations
+    ./manage.py syncdb
 
 **web**
 
@@ -99,32 +98,20 @@ Parte 2: Modelos
 .. code-block:: python
 
     noticias = Noticia.objects.all()
-
-.. code-block:: python
-
-    return render_to_response('inicio.html', {'lista_noticias': noticias})
+    return render(request, 'inicio.html', {'lista_noticias': noticias})
 
 **web**
 
 Parte 3: Admin
 ==============
 
-* modificar settings (descomentar las lineas del admin)
-* modificar urls (descomentar las lineas del admin)
-* crear admin.py:
+* editar admin.py:
 
 .. code-block:: python
 
     from sitio.models import Noticia
-    from django.contrib import admin
     
     admin.site.register(Noticia)
-
-* sincronizar la base de datos:
-
-.. code-block::
-
-    python manage.py syncdb
 
 **web**
 
@@ -137,8 +124,6 @@ Parte 3: Admin
         list_filter = ('archivada', 'fecha')
         search_fields = ('texto', )
         date_hierarchy = 'fecha'
-
-.. code-block:: python
 
     admin.site.register(Noticia, AdminNoticia)
 
