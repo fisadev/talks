@@ -113,6 +113,12 @@ Parte 3: Admin
     
     admin.site.register(Noticia)
 
+* crear superusuario si no existe
+
+.. code-block:: bash
+
+    ./manage.py createsuperuser
+
 **web**
 
 * customizar el admin.py:
