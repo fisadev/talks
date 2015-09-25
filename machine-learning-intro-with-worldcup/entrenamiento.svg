@@ -103,7 +103,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="271.66908"
+     inkscape:cx="406.26791"
      inkscape:cy="77.015237"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -147,133 +147,129 @@
      transform="translate(63.632944,-354.04594)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16.07113838px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
-       x="254.64728"
-       y="481.86911"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
+       x="216.46982"
+       y="486.12418"
        id="text5428-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5430-2"
-         x="254.64728"
-         y="481.86911">f(x) = a*x + b</tspan></text>
+         x="216.46982"
+         y="486.12418">f(x) = 2*x + 3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16.07113838px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
-       x="254.13538"
-       y="457.00327"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+       x="215.7571"
+       y="451.50363"
        id="text5428-5-3"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5430-2-1"
-         x="254.13538"
-         y="457.00327">f(x) = a*x^2 + b*x + c</tspan></text>
+         x="215.7571"
+         y="451.50363">f(x) = 2*x + 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16.07113838px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none"
-       x="254.29608"
-       y="433.57208"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none"
+       x="215.98085"
+       y="418.88055"
        id="text5428-5-3-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5430-2-1-1"
-         x="254.29608"
-         y="433.57208">f(x) = x^2 + x^3</tspan></text>
+         x="215.98085"
+         y="418.88055">f(x) = 1.5*x + 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16.07113838px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none"
-       x="254.32953"
-       y="528.48846"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none"
+       x="216.02742"
+       y="551.03198"
        id="text5428-5-3-2"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5430-2-1-6"
-         x="254.32953"
-         y="528.48846">f(x) = e^x * x</tspan></text>
+         x="216.02742"
+         y="551.03198">f(x) = -1*x + 5</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16.07113838px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
-       x="254.49023"
-       y="505.05725"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+       x="216.25117"
+       y="518.40881"
        id="text5428-5-3-5-7"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5430-2-1-1-7"
-         x="254.49023"
-         y="505.05725">f(x) = sin(x)</tspan></text>
+         x="216.25117"
+         y="518.40881">f(x) = 2.5*x + 2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:19.74121094px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
-       x="594.12573"
-       y="486.41699"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.46961212px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
+       x="531.66205"
+       y="489.10315"
        id="text5428-5-7"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5430-2-8"
-         x="594.12573"
-         y="486.41699">f(x) = a*x + b</tspan></text>
+         x="531.66205"
+         y="489.10315">f(x) = 2*x + 3</tspan></text>
     <rect
-       style="fill:none;stroke:#c83737;stroke-width:3.74751711;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#c83737;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2985"
-       width="142.95822"
-       height="83.903458"
-       x="-45.521175"
-       y="440.72058" />
+       width="183.32852"
+       height="107.59715"
+       x="-50.992039"
+       y="429.24973" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:29.98013687px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-20.684921"
-       y="472.32513"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:38.44629669px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-19.14222"
+       y="469.77914"
        id="text3777"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-20.684921"
-         y="472.32513"
+         x="-19.14222"
+         y="469.77914"
          id="tspan7594"
          style="fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none">datos</tspan><tspan
          sodipodi:role="line"
-         x="-20.684921"
-         y="509.80029"
+         x="-19.14222"
+         y="517.83704"
          style="fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan4198">(e+s)</tspan></text>
-    <g
-       id="g5423"
-       transform="translate(-53.54,-46.281748)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3809"
-         d="m 199.68078,526.46875 49.36833,0"
-         style="fill:none;stroke:#c83737;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none"
-         sodipodi:nodetypes="cc" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path3809-4"
-         d="m 239.19167,515.46875 11.71487,13.57143"
-         style="fill:none;stroke:#c83737;stroke-width:7.090909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path3809-4-4"
-         d="M 238.62023,538.68304 250.33511,525.1116"
-         style="fill:none;stroke:#c83737;stroke-width:7.090909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3809-3"
-         d="m 566.49044,525.65655 49.36833,0"
-         style="fill:none;stroke:#c83737;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none"
-         sodipodi:nodetypes="cc" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path3809-4-9"
-         d="m 606.00133,514.65655 11.71487,13.57143"
-         style="fill:none;stroke:#c83737;stroke-width:7.090909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none" />
-      <path
-         sodipodi:nodetypes="cc"
-         inkscape:connector-curvature="0"
-         id="path3809-4-4-5"
-         d="M 605.42989,537.87084 617.14477,524.2994"
-         style="fill:none;stroke:#c83737;stroke-width:7.090909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none" />
-    </g>
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#c83737;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none"
+       d="m 146.14078,480.187 49.36833,0"
+       id="path3809"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#c83737;stroke-width:7.090909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none"
+       d="m 185.65167,469.187 11.71487,13.57143"
+       id="path3809-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#c83737;stroke-width:7.090909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none"
+       d="m 185.08023,492.40129 11.71488,-13.57144"
+       id="path3809-4-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#c83737;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none"
+       d="m 462.95044,479.3748 49.36833,0"
+       id="path3809-3"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#c83737;stroke-width:7.090909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none"
+       d="m 502.46133,468.3748 11.71487,13.57143"
+       id="path3809-4-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#c83737;stroke-width:7.090909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:none"
+       d="m 501.88989,491.58909 11.71488,-13.57144"
+       id="path3809-4-4-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
