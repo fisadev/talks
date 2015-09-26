@@ -14,6 +14,7 @@ setup(
     # packages=['demo_empaquetado_junin_2015', ],   # si fuese un directorio
     py_modules=['demo_empaquetado_junin_2015', ],   # si fuese solo un script
     license='LICENSE.txt',
+    scripts=['demo_empaquetado_junin_2015.py'],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
