@@ -11,7 +11,8 @@ setup(
     author=u'Juan Pedro Fisanotti',
     author_email='fisadev@gmail.com',
     url='http://github.com/fisadev/talks',
-    packages=['demo_empaquetado_junin_2015', ],
+    # packages=['demo_empaquetado_junin_2015', ],   # si fuese un directorio
+    py_modules=['demo_empaquetado_junin_2015', ],   # si fuese solo un script
     license='LICENSE.txt',
     classifiers=[
         'Intended Audience :: Developers',
