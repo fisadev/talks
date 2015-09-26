@@ -1,0 +1,7 @@
+[distutils]
+index-servers =
+    pypi
+
+[pypi]
+username:Juan.Pedro.Fisanotti
+password:mi password
