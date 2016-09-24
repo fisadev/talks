@@ -45,7 +45,11 @@ Parte 1: vista básica
 
 .. code-block:: python
 
-    url(r'^inicio/$', 'sitio.views.inicio'),
+    from sitio.views import inicio
+
+
+    url(r'^inicio/$', inicio),
+
 
 * levantar servidor y probar:
 
@@ -79,7 +83,7 @@ Parte 2: Modelos
 .. code-block::
 
     ./manage.py makemigrations
-    ./manage.py syncdb
+    ./manage.py migrate
 
 **web**
 
