@@ -67,7 +67,6 @@ Parte 2: Modelos
     from sitio.models import Noticia
     from datetime import datetime
 
-.. code-block:: python
 
     nueva = Noticia()
     nueva.titulo = 'entro alguien!'
