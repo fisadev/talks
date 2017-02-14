@@ -1,0 +1,329 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="reveal.js/css/theme/white.css">
+        <link rel="stylesheet" href="reveal.js/css/theme/sky.css" id="theme">
+        <style>
+            .reveal section img {
+                border: 0;
+                box-shadow: none;
+                max-height: 400px;
+            }
+
+            .good-thing {
+                color: 99c400;
+            }
+            .bad-thing {
+                color: ff5555;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <section>
+                        <h2>Algoritmos de Clasificación: qué y cuándo</h2>
+                        <p>Juan Pedro Fisanotti</p>
+                    </section>
+                    <section>
+                        <h2>Objetivos</h2>
+                        <p>Llevarse una idea de:</p>
+                        <ul>
+                            <li>qué cosas afectan a la decisión de los algoritmos</li>
+                            <li>en qué casos conviene usar o no usar los algoritmos comunes</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Lo que vamos a ver</h2>
+                    </section>
+                    <section>
+                        <h2>Algoritmos</h2>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Logistic Regression</li>
+                            <li>K Nearest Neighbors</li>
+                            <li>Support Vector Machines (con kernels no lineales)</li>
+                            <li>Naive Bayes</li>
+                            <li>Decission Trees</li>
+                            <li>Random Forests</li>
+                            <li>Gradient Boosting (con decision trees)</li>
+                            <li>Neural Networks</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="./caja_negra.svg"/>
+                    </section>
+                    <section>
+                        <h2>Criterios ...</h2>
+                    </section>
+                    <section>
+                        <h2>... sobre el algoritmo</h2>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Uso de recursos en train y predict</li>
+                            <li>Flexibilidad de tiempo de train? (regulable, online train)</li>
+                            <li>Paramétrico?</li>
+                            <li>Garantiza convergencia?</li>
+                            <li>Cantidad de parámetros a tunear</li>
+                            <li>Parte de sklearn?</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>... sobre su relación con los datos</h2>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Multiclase nativo?</li>
+                            <li>Cosas no linealmente separables?</li>
+                            <li>Data desparramada en gran dimensionalidad?</li>
+                            <li>Features que <strong>tienen</strong> o <strong>son</strong> ruido?</li>
+                            <li>Sabe estimar probabilidad de acierto?</li>
+                            <li>Da un score que sirva como medida de "confianza" de la predicción?</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Logistic Regression</h2>
+                        <img src="./logistic_regression.svg"/>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">Nada de recursos en train y predict</li>
+                            <li class="bad-thing">No podemos regular tiempo de train, ni hacer online training</li>
+                            <li class="good-thing">Paramétrico</li>
+                            <li class="good-thing">Garantiza convergencia</li>
+                            <li class="good-thing">Nada para tunear</li>
+                            <li class="good-thing">En sklearn</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">No nativo, pero multiclase haciendo cosas baratas</li>
+                            <li class="bad-thing">Solo para datos linealmente separables</li>
+                            <li class="good-thing">Ok con data muy desparramada en gran dimensionalidad</li>
+                            <li class="good-thing">Menos suceptible a features ruidosas</li>
+                            <li>No da "probabilidad" posta, pero se parece</li>
+                            <li class="good-thing">El output es muy buen score</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>K Nearest Neighbors</h2>
+                        <img src="./knn.svg"/>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">Nada de recursos en train (o sí si indexo)</li>
+                            <li class="bad-thing">Muchos de recursos en predict (aliviano indexando)</li>
+                            <li class="good-thing">Tiempo de train (indices) regulable, podemos hacer online training</li>
+                            <li class="bad-thing">No paramétrico!</li>
+                            <li>Convergencia: no aplica</li>
+                            <li class="good-thing">Poco para tunear</li>
+                            <li class="good-thing">En sklearn</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">Multiclase nativo</li>
+                            <li class="good-thing">Se banca cosas no linealmente separables</li>
+                            <li class="bad-thing">Problemas con data muy desparramada en muchas dimensiones</li>
+                            <li class="bad-thing">Suceptible a features ruidosas</li>
+                            <li class="bad-thing">Nada de probabilidad</li>
+                            <li class="bad-thing">Score muy escalonado</li>
+                        </ul>
+                    </section>
+                </section>
+    
+                <section>
+                    <section>
+                        <h2>SVM (kernels no lineales)</h2>
+                        <img src="./svm.svg"/>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">Aceptable uso de recursos en train y en predict</li>
+                            <li class="bad-thing">No podemos regular tiempo de train, ni hacer online training</li>
+                            <li class="good-thing">Paramétrico</li>
+                            <li class="good-thing">Garantiza convergencia</li>
+                            <li class="good-thing">No mucho para tunear</li>
+                            <li class="good-thing">En sklearn</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Multiclase no nativo</li>
+                            <li class="good-thing">Se banca cosas no linealmente separables (con kernels no lineales)</li>
+                            <li class="bad-thing">Problemas con data muy desparramada en muchas dimensiones</li>
+                            <li class="bad-thing">Suceptible a features ruidosas</li>
+                            <li class="bad-thing">Nada de probabilidad</li>
+                            <li class="good-thing">Buen score</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Naive Bayes</h2>
+                        <img src="./naive_bayes.png"/>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">Nada de recursos en train y en predict</li>
+                            <li class="bad-thing">No podemos regular tiempo de train, ni hacer online training</li>
+                            <li class="good-thing">Paramétrico</li>
+                            <li class="good-thing">Garantiza convergencia</li>
+                            <li class="good-thing">Prácticamente nada para tunear</li>
+                            <li class="good-thing">En sklearn</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">Multiclase nativo</li>
+                            <li class="good-thing">Se banca cosas no linealmente separables</li>
+                            <li class="good-thing">Funciona bien con data muy desparramada en muchas dimensiones</li>
+                            <li class="bad-thing">Suceptible a features ruidosas</li>
+                            <li>Probabilidad? Sí, no, depende de asunciones y realidad de la data</li>
+                            <li class="good-thing">Buen score</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Decission Trees</h2>
+                        <img src="./decision_trees.svg"/>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Puede que requieran bastante ram en train</li>
+                            <li class="good-thing">Nada de recursos en predict</li>
+                            <li class="bad-thing">No podemos regular tiempo de train, ni hacer online training</li>
+                            <li class="good-thing">Paramétrico</li>
+                            <li class="good-thing">Garantiza convergencia</li>
+                            <li class="good-thing">Poco para tunear</li>
+                            <li class="good-thing">En sklearn</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">Multiclase nativo</li>
+                            <li class="good-thing">Se banca cosas no linealmente separables</li>
+                            <li class="bad-thing">Problemas con data muy desparramada en muchas dimensiones (ram!!)</li>
+                            <li class="bad-thing">Suceptible a features ruidosas</li>
+                            <li class="bad-thing">Nada de probabilidad ni score</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Random forests</h2>
+                        <img src="./random_forests.svg"/>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Similar a decision trees, posibles temas de ram</li>
+                            <li class="good-thing">Nada de recursos en predict</li>
+                            <li class="bad-thing">No podemos hacer online training</li>
+                            <li class="good-thing">Tiempo de train regulable de acuerdo a cantidad/tamaño de árboles</li>
+                            <li class="good-thing">Paramétrico</li>
+                            <li class="good-thing">Garantiza convergencia-ish</li>
+                            <li>Un poco más para tunear, pero no grave</li>
+                            <li class="good-thing">En sklearn</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">Multiclase nativo</li>
+                            <li class="good-thing">Se banca cosas no linealmente separables</li>
+                            <li class="bad-thing">Problemas con data muy desparramada en dimensiones, pero menos que decision trees a secas</li>
+                            <li class="bad-thing">Suceptible a features ruidosas</li>
+                            <li class="bad-thing">Nada de probabilidad</li>
+                            <li class="good-thing">Da un score</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Gradient boosted decision trees</h2>
+                        <img src="./boosted_trees.svg"/>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Similar a decision trees, posibles temas de ram (más si es multiclase)</li>
+                            <li class="good-thing">Nada de recursos en predict</li>
+                            <li class="bad-thing">No podemos hacer online training</li>
+                            <li>Tiempo de train regulable-ish de acuerdo a cantidad de árboles (solo un poco)</li>
+                            <li class="good-thing">Paramétrico</li>
+                            <li class="good-thing">Garantiza convergencia</li>
+                            <li>Un poco más para tunear, pero no grave</li>
+                            <li class="good-thing">En sklearn</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Multiclase pero en scikit eso usa <strong>mucha</strong> ram (1 árbol por feature)</li>
+                            <li class="good-thing">Se banca cosas no linealmente separables</li>
+                            <li class="bad-thing">Problemas con data muy desparramada en dimensiones</li>
+                            <li class="bad-thing">Suceptible a features ruidosas</li>
+                            <li class="bad-thing">Nada de probabilidad</li>
+                            <li class="good-thing">Da un score</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Neural Networks</h2>
+                        <img src="./neural_networks.svg"/>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="bad-thing">Muchos recursos (ram y cpu/gpu) en train</li>
+                            <li>Recursos en predict pueden llegar a ser un tema también, por más que es mucho menos</li>
+                            <li class="good-thing">Podemos hacer online training</li>
+                            <li class="good-thing">Tiempo de train regulable</li>
+                            <li class="good-thing">Paramétrico</li>
+                            <li class="bad-thing">No garantiza convergencia</li>
+                            <li class="bad-thing"><strong>Banda</strong> de cosas para tunear, complejas y poco predecibles</li>
+                            <li class="bad-thing">Nada en sklearn, hay que integrar con otras libs</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="good-thing">Multiclase nativo</li>
+                            <li class="good-thing">Se banca cosas no linealmente separables</li>
+                            <li class="bad-thing">Problemas con data muy desparramada en dimensiones (ram)</li>
+                            <li class="bad-thing">Suceptible a features ruidosas (especial capacidad de overfitting)</li>
+                            <li class="bad-thing">Probabilidad sería terriblemente complejo de tener</li>
+                            <li class="good-thing">Da un buen score</li>
+                        </ul>
+                    </section>
+                </section>
+
+
+                <section>
+                    <h2>Yapa: Dimensionality Reduction</h2>
+                    <img src="./dimensionality_reduction.svg"/>
+                </section>
+            </div>
+        </div>
+        <script src="reveal.js/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                // Display a presentation progress bar
+                progress: true,
+            });
+        </script>
+    </body>
+</html>
