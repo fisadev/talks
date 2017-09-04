@@ -1,3 +1,5 @@
+Abstract:
+
 Una introducción al desarrollo web con Python, utilizando el framework Django.
 
 En la charla comenzaremos con una breve descripción de las características
