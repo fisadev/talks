@@ -128,13 +128,13 @@ Parte 3: Admin
 
 .. code-block:: python
 
+    @admin.site.register(Noticia)
     class AdminNoticia(admin.ModelAdmin):
         list_display = ('id', 'titulo', 'fecha',)
         list_filter = ('archivada', 'fecha')
         search_fields = ('texto', )
         date_hierarchy = 'fecha'
 
-    admin.site.register(Noticia, AdminNoticia)
 
 **web**
 
