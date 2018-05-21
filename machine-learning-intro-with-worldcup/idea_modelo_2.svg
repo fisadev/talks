@@ -143,7 +143,7 @@
      transform="translate(63.632944,-354.04594)">
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:CPMono_v07;-inkscape-font-specification:CPMono_v07 Light"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Plain for Powerline'"
        x="-66.032944"
        y="506.37595"
        id="text5428"
@@ -154,7 +154,7 @@
          y="506.37595">f()   =</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:CPMono_v07;-inkscape-font-specification:CPMono_v07 Light"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Plain for Powerline'"
        x="215.75043"
        y="506.4541"
        id="text5428-5"
@@ -165,7 +165,7 @@
          y="506.4541">f(x) = a*x + b</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:CPMono_v07;-inkscape-font-specification:CPMono_v07 Light"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Plain for Powerline'"
        x="214.4763"
        y="444.56464"
        id="text5428-5-3"
@@ -176,7 +176,7 @@
          y="444.56464">f(x) = a*x^2 + b*x + c</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:CPMono_v07;-inkscape-font-specification:CPMono_v07 Light"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Plain for Powerline'"
        x="214.87631"
        y="386.24594"
        id="text5428-5-3-5"
@@ -187,7 +187,7 @@
          y="386.24594">f(x) = x^2 + x^3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:CPMono_v07;-inkscape-font-specification:CPMono_v07 Light"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Plain for Powerline'"
        x="214.95952"
        y="622.48657"
        id="text5428-5-3-2"
@@ -198,7 +198,7 @@
          y="622.48657">f(x) = e^x * x</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:CPMono_v07;-inkscape-font-specification:CPMono_v07 Light"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Plain for Powerline'"
        x="215.35953"
        y="564.16785"
        id="text5428-5-3-5-7"
