@@ -13,7 +13,7 @@
    height="433.54291"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="neural_network_2.svg">
   <defs
      id="defs4">
@@ -103,7 +103,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="138.50495"
+     inkscape:cx="13.50495"
      inkscape:cy="194.98766"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -114,15 +114,16 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1014"
+     inkscape:window-width="960"
+     inkscape:window-height="545"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="1,0"
        position="-1218.0594,182.24764"
-       id="guide3773" />
+       id="guide3773"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -132,7 +133,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -318,278 +319,278 @@
        r="91.418808" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="496.74878"
        y="120.63611"
-       id="text4203-7-3-6"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-6"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-2"
          x="496.74878"
-         y="120.63611">p</tspan></text>
+         y="120.63611"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="493.89163"
        y="224.92183"
-       id="text4203-7-3-9"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-9"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-1"
          x="493.89163"
-         y="224.92183">p</tspan></text>
+         y="224.92183"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="491.03448"
        y="331.3504"
-       id="text4203-7-3-2"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-2"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-7"
          x="491.03448"
-         y="331.3504">p</tspan></text>
+         y="331.3504"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="491.03452"
        y="444.20755"
-       id="text4203-7-3-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-0"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-9"
          x="491.03452"
-         y="444.20755">p</tspan></text>
+         y="444.20755"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="608.89166"
        y="277.77899"
-       id="text4203-7-3-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-3"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-6"
          x="608.89166"
-         y="277.77899">p</tspan></text>
+         y="277.77899"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="566.74878"
        y="191.35039"
-       id="text4203-7-3-06"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-06"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-26"
          x="566.74878"
-         y="191.35039">p</tspan></text>
+         y="191.35039"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="551.03448"
        y="237.06468"
-       id="text4203-7-3-1"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-1"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-8"
          x="551.03448"
-         y="237.06468">p</tspan></text>
+         y="237.06468"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="546.74878"
        y="292.06467"
-       id="text4203-7-3-7"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-7"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-92"
          x="546.74878"
-         y="292.06467">p</tspan></text>
+         y="292.06467"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="554.60596"
        y="340.63611"
-       id="text4203-7-3-02"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-02"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-3"
          x="554.60596"
-         y="340.63611">p</tspan></text>
+         y="340.63611"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="420.32019"
        y="417.06467"
-       id="text4203-7-3-75"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-75"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-922"
          x="420.32019"
-         y="417.06467">p</tspan></text>
+         y="417.06467"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="436.74878"
        y="388.49329"
-       id="text4203-7-3-8"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-8"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-97"
          x="436.74878"
-         y="388.49329">p</tspan></text>
+         y="388.49329"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="457.46307"
        y="377.77896"
-       id="text4203-7-3-36"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-36"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-12"
          x="457.46307"
-         y="377.77896">p</tspan></text>
+         y="377.77896"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="414.60593"
        y="147.06468"
-       id="text4203-7-3-361"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-361"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-0"
          x="414.60593"
-         y="147.06468">p</tspan></text>
+         y="147.06468"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="432.46307"
        y="169.20755"
-       id="text4203-7-3-63"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-63"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-20"
          x="432.46307"
-         y="169.20755">p</tspan></text>
+         y="169.20755"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="444.60593"
        y="187.06468"
-       id="text4203-7-3-61"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-61"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-5"
          x="444.60593"
-         y="187.06468">p</tspan></text>
+         y="187.06468"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="457.46307"
        y="205.63611"
-       id="text4203-7-3-5"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-5"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-4"
          x="457.46307"
-         y="205.63611">p</tspan></text>
+         y="205.63611"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="445.32022"
        y="228.49326"
-       id="text4203-7-3-76"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-76"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-56"
          x="445.32022"
-         y="228.49326">p</tspan></text>
+         y="228.49326"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="455.32019"
        y="262.77896"
-       id="text4203-7-3-93"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-93"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-74"
          x="455.32019"
-         y="262.77896">p</tspan></text>
+         y="262.77896"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="466.03448"
        y="285.63611"
-       id="text4203-7-3-52"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-52"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-54"
          x="466.03448"
-         y="285.63611">p</tspan></text>
+         y="285.63611"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="452.46304"
        y="304.92181"
-       id="text4203-7-3-74"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-74"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-43"
          x="452.46304"
-         y="304.92181">p</tspan></text>
+         y="304.92181"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="449.60593"
        y="348.49326"
-       id="text4203-7-3-07"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86"
          x="449.60593"
-         y="348.49326">p</tspan></text>
+         y="348.49326"
+         style="font-size:14.52558613px;line-height:1.25">p</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="287.46307"
        y="286.35037"
-       id="text4203-7-3-07-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07-3"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86-6"
          x="287.46307"
-         y="286.35037">x2</tspan></text>
+         y="286.35037"
+         style="font-size:14.52558613px;line-height:1.25">x2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="287.54367"
        y="178.87566"
-       id="text4203-7-3-07-3-7"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07-3-7"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86-6-5"
          x="287.54367"
-         y="178.87566">x1</tspan></text>
+         y="178.87566"
+         style="font-size:14.52558613px;line-height:1.25">x1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.52558613px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="288.25797"
        y="389.58994"
-       id="text4203-7-3-07-3-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07-3-3"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86-6-56"
          x="288.25797"
-         y="389.58994">x3</tspan></text>
+         y="389.58994"
+         style="font-size:14.52558613px;line-height:1.25">x3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:35px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="296.36893"
        y="514.37415"
-       id="text4203-7-3-07-3-3-2"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07-3-3-2"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86-6-56-9"
          x="296.36893"
-         y="514.37415">f(x1,x2,x3) = ...</tspan></text>
+         y="514.37415"
+         style="font-size:35px;line-height:1.25">f(x1,x2,x3) = ...</tspan></text>
   </g>
 </svg>

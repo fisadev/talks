@@ -13,8 +13,8 @@
    height="272.5"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="supervised_learning_1.svg">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="supervised_learning.svg">
   <defs
      id="defs4">
     <marker
@@ -109,19 +109,21 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1015"
+     inkscape:window-width="960"
+     inkscape:window-height="545"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="27"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="1,0"
        position="-803.04911,288.39228"
-       id="guide3773" />
+       id="guide3773"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-443.04911,272.678"
-       id="guide3775" />
+       id="guide3775"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -156,42 +158,46 @@
        y="359.50504" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:CPMono_v07;-inkscape-font-specification:CPMono_v07 Light"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="-105.71429"
        y="433.79077"
-       id="text3777"
-       sodipodi:linespacing="125%"><tspan
+       id="text3777"><tspan
          sodipodi:role="line"
          id="tspan3779"
          x="-105.71429"
-         y="433.79077">datos</tspan><tspan
+         y="433.79077"
+         style="font-size:40px;line-height:1.25">datos</tspan><tspan
          sodipodi:role="line"
          x="-105.71429"
          y="483.79077"
-         id="tspan3781">de</tspan><tspan
+         id="tspan3781"
+         style="font-size:40px;line-height:1.25">de</tspan><tspan
          sodipodi:role="line"
          x="-105.71429"
          y="533.79077"
-         id="tspan3783">entrada</tspan></text>
+         id="tspan3783"
+         style="font-size:40px;line-height:1.25">entrada</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:CPMono_v07;-inkscape-font-specification:CPMono_v07 Light"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="525.71429"
        y="435.50504"
-       id="text3785"
-       sodipodi:linespacing="125%"><tspan
+       id="text3785"><tspan
          sodipodi:role="line"
          id="tspan3787"
          x="525.71429"
-         y="435.50504">datos</tspan><tspan
+         y="435.50504"
+         style="font-size:40px;line-height:1.25">datos</tspan><tspan
          sodipodi:role="line"
          x="525.71429"
          y="485.50504"
-         id="tspan3789">de</tspan><tspan
+         id="tspan3789"
+         style="font-size:40px;line-height:1.25">de</tspan><tspan
          sodipodi:role="line"
          x="525.71429"
          y="535.505"
-         id="tspan3791">salida</tspan></text>
+         id="tspan3791"
+         style="font-size:40px;line-height:1.25">salida</tspan></text>
     <g
        id="g5423">
       <path
@@ -215,14 +221,14 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:CPMono_v07;-inkscape-font-specification:CPMono_v07 Light"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="223.45953"
        y="483.14243"
-       id="text5428"
-       sodipodi:linespacing="125%"><tspan
+       id="text5428"><tspan
          sodipodi:role="line"
          id="tspan5430"
          x="223.45953"
-         y="483.14243">f() ??</tspan></text>
+         y="483.14243"
+         style="font-size:40px;line-height:1.25">f() ??</tspan></text>
   </g>
 </svg>

@@ -13,7 +13,7 @@
    height="433.54291"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="keras_stack.svg">
   <defs
      id="defs4">
@@ -103,7 +103,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="29.219236"
+     inkscape:cx="-95.780764"
      inkscape:cy="196.9949"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -114,19 +114,21 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1024"
+     inkscape:window-width="960"
+     inkscape:window-height="545"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="27"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="1,0"
        position="-1218.0594,182.24764"
-       id="guide3773" />
+       id="guide3773"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="220,257.14286"
        orientation="1,0"
-       id="guide4257" />
+       id="guide4257"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -154,15 +156,15 @@
        y="118.88095" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:35px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="434.22607"
        y="167.23129"
-       id="text4203-7-3-07-3-3-2"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07-3-3-2"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86-6-56-9"
          x="434.22607"
-         y="167.23129">keras</tspan></text>
+         y="167.23129"
+         style="font-size:35px;line-height:1.25">keras</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#008000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4255-3"
@@ -172,15 +174,15 @@
        y="222.09525" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:35px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="365.86893"
        y="270.44559"
-       id="text4203-7-3-07-3-3-2-6"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07-3-3-2-6"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86-6-56-9-7"
          x="365.86893"
-         y="270.44559">tensor flow</tspan></text>
+         y="270.44559"
+         style="font-size:35px;line-height:1.25">tensor flow</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#008000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4255-5"
@@ -190,15 +192,15 @@
        y="321.95239" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:35px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="353.72607"
        y="370.30273"
-       id="text4203-7-3-07-3-3-2-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07-3-3-2-3"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86-6-56-9-5"
          x="353.72607"
-         y="370.30273">cuda + cudnn</tspan></text>
+         y="370.30273"
+         style="font-size:35px;line-height:1.25">cuda + cudnn</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#008000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4255-6"
@@ -208,15 +210,15 @@
        y="419.17883" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:35px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="357.15463"
        y="468.30273"
-       id="text4203-7-3-07-3-3-2-2"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07-3-3-2-2"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86-6-56-9-9"
          x="357.15463"
-         y="468.30273">cpu</tspan></text>
+         y="468.30273"
+         style="font-size:35px;line-height:1.25">cpu</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#008000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4255-6-1"
@@ -226,14 +228,14 @@
        y="418.89313" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:35px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="555.79755"
        y="468.01703"
-       id="text4203-7-3-07-3-3-2-2-2"
-       sodipodi:linespacing="125%"><tspan
+       id="text4203-7-3-07-3-3-2-2-2"><tspan
          sodipodi:role="line"
          id="tspan4205-5-5-86-6-56-9-9-7"
          x="555.79755"
-         y="468.01703">gpu</tspan></text>
+         y="468.01703"
+         style="font-size:35px;line-height:1.25">gpu</tspan></text>
   </g>
 </svg>

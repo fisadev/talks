@@ -13,8 +13,8 @@
    height="275.24063"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="entrenamiento.svg">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="train.svg">
   <defs
      id="defs4">
     <marker
@@ -114,19 +114,21 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1024"
+     inkscape:window-width="960"
+     inkscape:window-height="545"
      inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-y="27"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="1,0"
        position="-883.50992,291.2101"
-       id="guide3773" />
+       id="guide3773"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="-138.3909,150.51273"
        orientation="0,1"
-       id="guide3450" />
+       id="guide3450"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -147,70 +149,70 @@
      transform="translate(63.632944,-354.04594)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
        x="216.46982"
        y="486.12418"
-       id="text5428-5"
-       sodipodi:linespacing="125%"><tspan
+       id="text5428-5"><tspan
          sodipodi:role="line"
          id="tspan5430-2"
          x="216.46982"
-         y="486.12418">f(x) = 2*x + 3</tspan></text>
+         y="486.12418"
+         style="font-size:22.37573433px;line-height:1.25">f(x) = 2*x + 3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
        x="215.7571"
        y="451.50363"
-       id="text5428-5-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text5428-5-3"><tspan
          sodipodi:role="line"
          id="tspan5430-2-1"
          x="215.7571"
-         y="451.50363">f(x) = 2*x + 1</tspan></text>
+         y="451.50363"
+         style="font-size:22.37573433px;line-height:1.25">f(x) = 2*x + 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none"
        x="215.98085"
        y="418.88055"
-       id="text5428-5-3-5"
-       sodipodi:linespacing="125%"><tspan
+       id="text5428-5-3-5"><tspan
          sodipodi:role="line"
          id="tspan5430-2-1-1"
          x="215.98085"
-         y="418.88055">f(x) = 1.5*x + 1</tspan></text>
+         y="418.88055"
+         style="font-size:22.37573433px;line-height:1.25">f(x) = 1.5*x + 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none"
        x="216.02742"
        y="551.03198"
-       id="text5428-5-3-2"
-       sodipodi:linespacing="125%"><tspan
+       id="text5428-5-3-2"><tspan
          sodipodi:role="line"
          id="tspan5430-2-1-6"
          x="216.02742"
-         y="551.03198">f(x) = -1*x + 5</tspan></text>
+         y="551.03198"
+         style="font-size:22.37573433px;line-height:1.25">f(x) = -1*x + 5</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.37573433px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
        x="216.25117"
        y="518.40881"
-       id="text5428-5-3-5-7"
-       sodipodi:linespacing="125%"><tspan
+       id="text5428-5-3-5-7"><tspan
          sodipodi:role="line"
          id="tspan5430-2-1-1-7"
          x="216.25117"
-         y="518.40881">f(x) = 2.5*x + 2</tspan></text>
+         y="518.40881"
+         style="font-size:22.37573433px;line-height:1.25">f(x) = 2.5*x + 2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.46961212px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
        x="531.66205"
        y="489.10315"
-       id="text5428-5-7"
-       sodipodi:linespacing="125%"><tspan
+       id="text5428-5-7"><tspan
          sodipodi:role="line"
          id="tspan5430-2-8"
          x="531.66205"
-         y="489.10315">f(x) = 2*x + 3</tspan></text>
+         y="489.10315"
+         style="font-size:27.46961212px;line-height:1.25">f(x) = 2*x + 3</tspan></text>
     <rect
        style="fill:none;stroke:#c83737;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2985"
@@ -220,20 +222,19 @@
        y="429.24973" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:38.44629669px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
        x="-19.14222"
        y="469.77914"
-       id="text3777"
-       sodipodi:linespacing="125%"><tspan
+       id="text3777"><tspan
          sodipodi:role="line"
          x="-19.14222"
          y="469.77914"
          id="tspan7594"
-         style="fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none">datos</tspan><tspan
+         style="font-size:38.44629669px;line-height:1.25;fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none">datos</tspan><tspan
          sodipodi:role="line"
          x="-19.14222"
          y="517.83704"
-         style="fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:38.44629669px;line-height:1.25;fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan4198">(e+s)</tspan></text>
     <path
        sodipodi:nodetypes="cc"

@@ -13,8 +13,8 @@
    height="275.24063"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="prediccion.svg">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="predict.svg">
   <defs
      id="defs4">
     <marker
@@ -114,19 +114,21 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1024"
+     inkscape:window-width="960"
+     inkscape:window-height="545"
      inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-y="27"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="1,0"
        position="-883.50992,291.2101"
-       id="guide3773" />
+       id="guide3773"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="-138.3909,150.51273"
        orientation="0,1"
-       id="guide3450" />
+       id="guide3450"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -147,15 +149,15 @@
      transform="translate(63.632944,-354.04594)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:27.46961212px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
        x="213.66205"
        y="489.10315"
-       id="text5428-5-7"
-       sodipodi:linespacing="125%"><tspan
+       id="text5428-5-7"><tspan
          sodipodi:role="line"
          id="tspan5430-2-8"
          x="213.66205"
-         y="489.10315">f(x) = 2*x + 3</tspan></text>
+         y="489.10315"
+         style="font-size:27.46961212px;line-height:1.25">f(x) = 2*x + 3</tspan></text>
     <rect
        style="fill:none;stroke:#c83737;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2985"
@@ -165,20 +167,19 @@
        y="429.24973" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:30.41158676px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
        x="-36.386955"
        y="471.5368"
-       id="text3777"
-       sodipodi:linespacing="125%"><tspan
+       id="text3777"><tspan
          sodipodi:role="line"
          x="-36.386955"
          y="471.5368"
-         style="fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:30.41158676px;line-height:1.25;fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan4198">nuevas</tspan><tspan
          sodipodi:role="line"
          x="-36.386955"
          y="509.5513"
-         style="fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:30.41158676px;line-height:1.25;fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan4201">entradas</tspan></text>
     <path
        sodipodi:nodetypes="cc"
@@ -225,20 +226,19 @@
        y="429.36749" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:30.41158676px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
        x="567.87927"
        y="471.77509"
-       id="text3777-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text3777-0"><tspan
          sodipodi:role="line"
          x="567.87927"
          y="471.77509"
-         style="fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:30.41158676px;line-height:1.25;fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan4198-8">nuevas</tspan><tspan
          sodipodi:role="line"
          x="567.87927"
          y="509.78958"
-         style="fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+         style="font-size:30.41158676px;line-height:1.25;fill:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan4201-2">salidas</tspan></text>
   </g>
 </svg>

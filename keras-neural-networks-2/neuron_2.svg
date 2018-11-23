@@ -13,8 +13,8 @@
    height="512.17157"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="neural_networks_1.svg">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="neuron_2.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="220.83802"
+     inkscape:cx="44.061324"
      inkscape:cy="296.03887"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -36,15 +36,16 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1014"
+     inkscape:window-width="960"
+     inkscape:window-height="545"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="1,0"
        position="-933.88167,314.57032"
-       id="guide3773" />
+       id="guide3773"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -54,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,103 +93,103 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="37.798019"
        y="167.83524"
-       id="text3878"
-       sodipodi:linespacing="125%"><tspan
+       id="text3878"><tspan
          sodipodi:role="line"
          id="tspan3880"
          x="37.798019"
-         y="167.83524">x1</tspan></text>
+         y="167.83524"
+         style="font-size:40px;line-height:1.25">x1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="-9.8009777"
        y="338.63223"
-       id="text3882"
-       sodipodi:linespacing="125%"><tspan
+       id="text3882"><tspan
          sodipodi:role="line"
          id="tspan3884"
          x="-9.8009777"
-         y="338.63223">x2</tspan></text>
+         y="338.63223"
+         style="font-size:40px;line-height:1.25">x2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="39.716805"
        y="499.24649"
-       id="text3886"
-       sodipodi:linespacing="125%"><tspan
+       id="text3886"><tspan
          sodipodi:role="line"
          id="tspan3888"
          x="39.716805"
-         y="499.24649">x3</tspan></text>
+         y="499.24649"
+         style="font-size:40px;line-height:1.25">x3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="447.63568"
        y="304.28705"
-       id="text3890"
-       sodipodi:linespacing="125%"><tspan
+       id="text3890"><tspan
          sodipodi:role="line"
          x="447.63568"
          y="304.28705"
-         id="tspan3013">Act()</tspan></text>
+         id="tspan3013"
+         style="font-size:40px;line-height:1.25">Act()</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-variant:normal;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
        x="177.92496"
        y="199.2312"
-       id="text3894"
-       sodipodi:linespacing="125%"><tspan
+       id="text3894"><tspan
          sodipodi:role="line"
          id="tspan3896"
          x="177.92496"
-         y="199.2312">p1</tspan></text>
+         y="199.2312"
+         style="font-size:40px;line-height:1.25">p1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-variant:normal;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
        x="117.56211"
        y="307.48615"
-       id="text3894-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text3894-3"><tspan
          sodipodi:role="line"
          id="tspan3896-0"
          x="117.56211"
-         y="307.48615">p2</tspan></text>
+         y="307.48615"
+         style="font-size:40px;line-height:1.25">p2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-variant:normal;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
        x="117.5621"
        y="416.58261"
-       id="text3894-7"
-       sodipodi:linespacing="125%"><tspan
+       id="text3894-7"><tspan
          sodipodi:role="line"
          x="117.5621"
          y="416.58261"
-         id="tspan3928">p3</tspan></text>
+         id="tspan3928"
+         style="font-size:40px;line-height:1.25">p3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-variant:normal;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
        x="311.95078"
        y="335.77039"
-       id="text3894-9"
-       sodipodi:linespacing="125%"><tspan
+       id="text3894-9"><tspan
          sodipodi:role="line"
          id="tspan3896-3"
          x="311.95078"
-         y="335.77039">p4</tspan></text>
+         y="335.77039"
+         style="font-size:40px;line-height:1.25">p4</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:CPMono_v07;-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-stretch:normal;line-height:0%;font-family:'CPMono_v07 Plain for Powerline';-inkscape-font-specification:'CPMono_v07 Semi-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="-15.061191"
        y="646.01678"
-       id="text3890-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text3890-3"><tspan
          sodipodi:role="line"
          x="-15.061191"
          y="646.01678"
-         id="tspan3013-6">f(x1,x2,x3) = Act(<tspan
+         id="tspan3013-6"
+         style="font-size:30px;line-height:1.25">f(x1,x2,x3) = Act(<tspan
    style="fill:#008000"
    id="tspan4157">p1</tspan>*x1+<tspan
    style="fill:#008000"
