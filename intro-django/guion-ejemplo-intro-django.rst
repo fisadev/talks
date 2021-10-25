@@ -20,18 +20,22 @@ Parte 1: vista básica
 
 .. code-block:: python
 
+    class Categoria(models.Model):
+        nombre = models.CharField(max_length=50)
+
     class Noticia(models.Model):
         titulo = models.CharField(max_length=50)
         texto = models.CharField(max_length=200)
         fecha = models.DateTimeField()
         archivada = models.BooleanField(default=False)
+        categoria = models.ForeignKey(Categoria, blank=True, null=True, on_delete=models.CASCADE)
 
 * crear directorio de templates
 * crear template /noticias/sitio/templates/inicio.html:
 
 .. code-block:: html
 
-    <h1>Noticias.com</h1>
+    <h1>noticias.com</h1>
     <p>bienvenido!</p>
 
 * editar views:
@@ -45,10 +49,10 @@ Parte 1: vista básica
 
 .. code-block:: python
 
-    from sitio.views import inicio
+    from sitio import views
 
 
-    url(r'^inicio/$', inicio),
+    path('inicio/', views.inicio),
 
 
 * levantar servidor y probar:
@@ -112,9 +116,19 @@ Parte 3: Admin
 
 .. code-block:: python
 
-    from sitio.models import Noticia
-    
-    admin.site.register(Noticia)
+    from sitio.models import Noticia, Categoria
+
+    @admin.register(Noticia)
+    class AdminNoticia(admin.ModelAdmin):
+        list_display = ('id', 'titulo', 'fecha', 'categoria')
+        list_filter = ('archivada', 'fecha', 'categoria')
+        search_fields = ('texto', )
+        date_hierarchy = 'fecha'
+
+    @admin.register(Categoria)
+    class AdminCategoria(admin.ModelAdmin):
+        list_display = ('id', 'nombre')
+
 
 * crear superusuario si no existe
 
@@ -124,16 +138,14 @@ Parte 3: Admin
 
 **web**
 
-* customizar el admin.py:
+
+* editar models y volver a mostrar todo:
+
 
 .. code-block:: python
 
-    @admin.site.register(Noticia)
-    class AdminNoticia(admin.ModelAdmin):
-        list_display = ('id', 'titulo', 'fecha',)
-        list_filter = ('archivada', 'fecha')
-        search_fields = ('texto', )
-        date_hierarchy = 'fecha'
+    def __str__(self):
+        return self.nombre
 
 
 **web**
@@ -142,3 +154,9 @@ Parte 4: Error
 ==============
 
 * hacer un error, levantar el server y ver que pasa
+
+
+Parte 5: Consola
+================
+
+* mostrar queries y algo del estilo en la consola
