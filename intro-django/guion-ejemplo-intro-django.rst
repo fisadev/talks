@@ -5,7 +5,7 @@ Parte 1: vista básica
 
 .. code-block::
 
-    django-admin.py startproject noticias
+    django-admin startproject noticias
     ./manage.py startapp sitio
 
 * editar settings: path base de datos y cliente
