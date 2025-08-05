@@ -1,3 +1,13 @@
+Parte 0: env
+============
+
+* crear proyecto uv y agregar django
+
+.. code-block:: bash
+
+    uv init
+    uv add django
+
 Parte 1: vista básica
 =====================
 
@@ -5,8 +15,9 @@ Parte 1: vista básica
 
 .. code-block::
 
-    django-admin startproject noticias
-    ./manage.py startapp sitio
+    uv run django-admin startproject noticias
+    cd noticias
+    uv run ./manage.py startapp sitio
 
 * editar settings: path base de datos y cliente
 
@@ -59,7 +70,7 @@ Parte 1: vista básica
 
 .. code-block::
 
-    ./manage.py runserver
+    uv run ./manage.py runserver
 
 **web**
 
@@ -86,8 +97,8 @@ Parte 2: Modelos
 
 .. code-block::
 
-    ./manage.py makemigrations
-    ./manage.py migrate
+    uv run ./manage.py makemigrations
+    uv run ./manage.py migrate
 
 **web**
 
@@ -134,7 +145,7 @@ Parte 3: Admin
 
 .. code-block:: bash
 
-    ./manage.py createsuperuser
+    uv run ./manage.py createsuperuser
 
 **web**
 
