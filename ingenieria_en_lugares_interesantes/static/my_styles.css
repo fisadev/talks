@@ -1,0 +1,32 @@
+/* Left-align the slide contents, instead of reveal.js' default centering */
+.reveal .slides {
+	text-align: left;
+}
+
+/* Side by side columns inside a slide */
+.reveal .columns {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.reveal .columns > * {
+	/* min-width lets wide code blocks shrink instead of overflowing the slide */
+	flex: 1;
+	min-width: 0;
+}
+
+/* first column takes 1/4 of the width, the rest takes 3/4 */
+.reveal .columns > :first-child {
+	flex: 1;
+}
+
+.reveal .columns > :first-child ~ * {
+	flex: 3;
+}
+
+/* code blocks fill their column, instead of the theme's centered 90% */
+.reveal .columns pre {
+	width: 100%;
+	margin: 0;
+}
